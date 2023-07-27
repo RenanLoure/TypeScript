@@ -1,7 +1,7 @@
 // Record
 const objeto1: Record<string, string | number> = {
-  nome: 'Luiz',
-  sobrenome: 'Miranda',
+  nome: 'Renan',
+  sobrenome: 'Muniz',
   idade: 30,
 };
 console.log(objeto1);
@@ -22,9 +22,9 @@ type PessoaReadonly = Readonly<PessoaRequired>;
 type PessoaPick = Pick<PessoaRequired, 'nome' | 'sobrenome'>;
 
 const objeto2: PessoaRequired = {
-  nome: 'Luiz',
-  sobrenome: 'Miranda',
-  idade: 30,
+  nome: 'Renan',
+  sobrenome: 'Muniz',
+  idade: 23,
 };
 console.log(objeto2);
 

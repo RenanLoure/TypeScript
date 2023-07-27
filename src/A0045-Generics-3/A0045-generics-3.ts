@@ -11,8 +11,8 @@ type PessoaProtocolo2<T = string, U = number> = {
 };
 
 const aluno1: PessoaProtocolo2<string, number> = {
-  nome: 'Luiz',
-  sobrenome: 'Miranda',
+  nome: 'Renan',
+  sobrenome: 'Muniz',
   idade: 30,
 };
 
@@ -23,8 +23,8 @@ const aluno2: PessoaProtocolo<number, number> = {
 };
 
 const aluno3: PessoaProtocolo2 = {
-  nome: 'Luiz',
-  sobrenome: 'Miranda',
+  nome: 'Renan',
+  sobrenome: 'Muniz',
   idade: 30,
 };
 

@@ -27,5 +27,5 @@ export class Animal {
   }
 }
 
-const animal = new Animal('Luiz', 'roxo');
+const animal = new Animal('Renan', 'roxo');
 console.log(animal);

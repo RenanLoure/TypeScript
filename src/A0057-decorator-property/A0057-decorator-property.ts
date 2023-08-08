@@ -43,6 +43,6 @@ export class UmaPessoa {
   }
 }
 
-const pessoa = new UmaPessoa('Luiz', 'Otávio', 30);
+const pessoa = new UmaPessoa('Renan', 'Muniz', 30);
 const metodo = pessoa.metodo('Olá mundo!');
 console.log(metodo);
